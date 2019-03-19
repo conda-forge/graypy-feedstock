@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About graypy
 ============
 
@@ -18,8 +14,14 @@ Summary: Python logging handler that sends messages in GELF (Graylog Extended Lo
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/graypy-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/graypy-feedstock)
+
+<table><tr>
+    <td>All platforms:</td>
+    <td>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
