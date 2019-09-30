@@ -1,5 +1,5 @@
 {% set name = "graypy" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d2201d55bac16f82cfec445214be45506c5f86a596de802cc9374347eab9d4bf
+  sha256: fd8dc4a721de1278576d92db10ac015e99b4e480cf1b18892e79429fd9236e16
 
 build:
   number: 0
