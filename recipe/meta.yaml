@@ -10,20 +10,24 @@ source:
   sha256: fd8dc4a721de1278576d92db10ac015e99b4e480cf1b18892e79429fd9236e16
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
     - graypy
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/severb/graypy
